@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.qa.listeners.ExtentReportListener2"/>
+    </listeners>
+    <test name="Systems Limited ESS Portal Automation">
+        <classes>
+<!--            <class name="com.qa.testcases.LoginPageTest"/>-->
+<!--            <class name="com.qa.testcases.DashboardPageTest"/>-->
+            <class name="com.qa.testcases.PersonalInformationPageTest"/>
+        </classes>
+    </test>
+</suite>
